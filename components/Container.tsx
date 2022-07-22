@@ -37,7 +37,7 @@ export default function Container(props: any) {
   const router = useRouter();
   const meta = {
     title: "Humber Sanchez – Bach. en Ingeniería de Sistemas",
-    description: `Conocimientos sólidos y constante actualización en gestión de proyectos, base de datos y desarrollo frontend`,
+    description: `Conocimientos sólidos y en constante actualización en gestión de proyectos, base de datos y desarrollo frontend`,
     image: "https://humbersanchez.com/static/images/humber-banner.jpg",
     type: "website",
     ...customMeta,
