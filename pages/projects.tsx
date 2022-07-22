@@ -99,7 +99,7 @@ export default function Dashboard() {
             </a>
           </Link>
 
-          <Link href="https://www.humbersanchez.com/">
+          <Link href="https://github.com/humberni/humbersanchez.com">
             <a
               target="_blank"
               className="border border-grey-200 dark:border-gray-800 rounded-lg p-4 w-full hover:border-gray-300 dark:hover:border-gray-300 bg-white dark:bg-gray-900"
