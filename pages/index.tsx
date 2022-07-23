@@ -41,34 +41,25 @@ export default function Home() {
           </h2>
 
           <div className="mb-16 border border-grey-200 dark:border-gray-800 rounded-lg p-4 w-full hover:border-gray-300 dark:hover:border-gray-300 bg-white dark:bg-gray-900">
-            <code className="text-gray-600 dark:text-gray-400 mb-8 text-sm">
-              <span>{`export function Habilidades() {`}</span> <br />
-              <span className="ml-8">{`return (`}</span> <br />
-              <span className="ml-16">{`<div>`}</span> <br />
-              <span className="ml-24">{`<ul>`}</span> <br />
-              <span className="ml-32">{`<li> NextJs </li>`}</span>
-              <br />
-              <span className="ml-32">{`<li> Reactjs </li>`}</span>
-              <br />
-              <span className="ml-32">{`<li> Tailwind </li>`}</span>
-              <br />
-              <span className="ml-32">{`<li> MySql </li>`}</span>
-              <br />
-              <span className="ml-32">{`<li> Git </li>`}</span>
-              <br />
-              <span className="ml-32">{`<li> Laravel </li>`}</span>
-              <br />
-              <span className="ml-32">{`<li> WordPress </li>`}</span>
-              <br />
-              <span className="ml-32">{`<li> Linux </li>`}</span>
-              <br />
-              <span className="ml-24">{`</ul>`}</span>
-              <br />
-              <span className="ml-16">{`<div>`}</span> <br />
-              <span className="ml-8">{`);`}</span>
-              <br />
-              <span>{`}`}</span>
-            </code>
+            <pre className="text-gray-600 dark:text-gray-400 mb-4 text-sm">
+              {`
+export function Habilidades() {
+    return (
+        <div>
+            <ul>
+                <li> NextJs </li>
+                <li> Reactjs </li>
+                <li> Tailwind </li>
+                <li> MySQL </li>
+                <li> Git </li>
+                <li> Laravel </li>
+                <li> WordPress </li>
+                <li> Linux </li>
+            </ul>
+        <div>
+    );
+}`}
+            </pre>
           </div>
 
           <Contact />
