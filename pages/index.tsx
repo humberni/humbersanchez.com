@@ -15,9 +15,6 @@ export default function Home() {
               <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4  text-black dark:text-white">
                 Humber Sanchez
               </h1>
-              {/*<h2 className="text-gray-700 dark:text-gray-200 mb-4">
-                Ingeniero de <span className="font-semibold">sistemas</span>
-              </h2>*/}
               <p className="text-gray-600 dark:text-gray-400 mb-16">
                 Hola! <span className="text-xl">👋</span> mi nombre es Humber
                 Sanchez Nieto, Bach. en Ingeniería de Sistemas, apasionado por
@@ -36,7 +33,7 @@ export default function Home() {
               />
             </div>
           </div>
-          <h2 className="font-bold text-3xl tracking-tight mb-4 text-black dark:text-white">
+          <h2 className="font-bold text-3xl tracking-tight mb-8 text-black dark:text-white">
             Habilidades
           </h2>
 
