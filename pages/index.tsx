@@ -47,6 +47,7 @@ export function Habilidades() {
                 <li> NextJs </li>
                 <li> Reactjs </li>
                 <li> Tailwind </li>
+                <li> ISO 27001 </li>
                 <li> MySQL </li>
                 <li> Git </li>
                 <li> Laravel </li>
