@@ -4,6 +4,49 @@ import { Contact } from "../components/Contact";
 import Container from "../components/Container";
 import Footer from "../components/Footer";
 
+const projetcs = [
+  {
+    title: "Flash Service",
+    description: "PWA para el rubro de delivery, implementado con Laravel.",
+    href: "https://appflashservice.com/",
+  },
+  {
+    title: "Gerson Medina",
+    description:
+      "Portafolio web de fotografía y videos, desarrollado con ReacJs.",
+    href: "https://www.gersonmedina.com/",
+  },
+  {
+    title: "Quina ERP",
+    description:
+      "Sitio web informativo desarrollado con NextJs, Tailwind Css y desplegado en ▲ Vercel.",
+    href: "https://quinaerp.com/",
+  },
+  {
+    title: "Jopesatools",
+    description:
+      "Plataforma Ecommerce de ferretería, bajo la tecnología de WooCommere.",
+    href: "https://jopesatools.com/",
+  },
+  {
+    title: " Cunia",
+    description:
+      "Ecommerce de electrodomésticos desarrollado bajo el CMS de WordPress y WooCommere.",
+    href: "https://cunia.pe/",
+  },
+  {
+    title: "Humber Sanchez",
+    description:
+      "Portafolio web minimalista y optimizado, desarrollado con NextJs, Tailwind Css y desplegado en ▲ Vercel.",
+    href: "https://github.com/humberni/humbersanchez.com",
+  },
+  {
+    title: "Dark Mode",
+    description: "Ejemplo práctico de configurar un dark mode con Reactjs.",
+    href: "https://github.com/humberni/mode-dark-react",
+  },
+];
+
 export default function Dashboard() {
   return (
     <Container
@@ -27,107 +70,21 @@ export default function Dashboard() {
         </div>
 
         <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 my-2 w-full mb-16">
-          <Link href="https://appflashservice.com/">
-            <a
-              target="_blank"
-              className="border border-grey-200 dark:border-gray-800 rounded-lg p-4 w-full hover:border-gray-300 dark:hover:border-gray-300 bg-white dark:bg-gray-900"
-            >
-              <h3 className="text-lg font-bold text-left mt-2 text-gray-900 dark:text-gray-100">
-                Flash Service &rarr;
-              </h3>
-              <p className="mt-1 text-gray-700 dark:text-gray-400">
-                PWA para el rubro de delivery, implementado con Laravel.
-              </p>
-            </a>
-          </Link>
-
-          <Link href="https://www.gersonmedina.com/">
-            <a
-              target="_blank"
-              className="border border-grey-200 dark:border-gray-800 rounded-lg p-4 w-full hover:border-gray-300 dark:hover:border-gray-300 bg-white dark:bg-gray-900"
-            >
-              <h3 className="text-lg font-bold text-left mt-2 text-gray-900 dark:text-gray-100">
-                Gerson Medina &rarr;
-              </h3>
-              <p className="mt-1 text-gray-700 dark:text-gray-400">
-                Portafolio web de fotografía y videos, desarrollado con ReacJs.
-              </p>
-            </a>
-          </Link>
-
-          <Link href="https://quinaerp.com/">
-            <a
-              target="_blank"
-              className="border border-grey-200 dark:border-gray-800 rounded-lg p-4 w-full hover:border-gray-300 dark:hover:border-gray-300 bg-white dark:bg-gray-900"
-            >
-              <h3 className="text-lg font-bold text-left mt-2 text-gray-900 dark:text-gray-100">
-                Quina ERP &rarr;
-              </h3>
-              <p className="mt-1 text-gray-700 dark:text-gray-400">
-                Sitio web informativo desarrollado con Nextjs, Tailwindcss y
-                desplegado en ▲ Vercel.
-              </p>
-            </a>
-          </Link>
-
-          <Link href="https://jopesatools.com/">
-            <a
-              target="_blank"
-              className="border border-grey-200 dark:border-gray-800 rounded-lg p-4 w-full hover:border-gray-300 dark:hover:border-gray-300 bg-white dark:bg-gray-900"
-            >
-              <h3 className="text-lg font-bold text-left mt-2 text-gray-900 dark:text-gray-100">
-                Jopesatools &rarr;
-              </h3>
-              <p className="mt-1 text-gray-700 dark:text-gray-400">
-                Plataforma Ecommerce de ferretería, bajo la tecnología de
-                WooCommere.
-              </p>
-            </a>
-          </Link>
-
-          <Link href="https://cunia.pe/">
-            <a
-              target="_blank"
-              className="border border-grey-200 dark:border-gray-800 rounded-lg p-4 w-full hover:border-gray-300 dark:hover:border-gray-300 bg-white dark:bg-gray-900"
-            >
-              <h3 className="text-lg font-bold text-left mt-2 text-gray-900 dark:text-gray-100">
-                Cunia &rarr;
-              </h3>
-              <p className="mt-1 text-gray-700 dark:text-gray-400">
-                Ecommerce de electrodomésticos desarrollado bajo el CMS de
-                WordPress y WooCommere.
-              </p>
-            </a>
-          </Link>
-
-          <Link href="https://github.com/humberni/humbersanchez.com">
-            <a
-              target="_blank"
-              className="border border-grey-200 dark:border-gray-800 rounded-lg p-4 w-full hover:border-gray-300 dark:hover:border-gray-300 bg-white dark:bg-gray-900"
-            >
-              <h3 className="text-lg font-bold text-left mt-2 text-gray-900 dark:text-gray-100">
-                Humber Sanchez &rarr;
-              </h3>
-              <p className="mt-1 text-gray-700 dark:text-gray-400">
-                Portafolio web minimalista y optimizado, desarrollado con NextJs
-                y Tailwind Css.
-              </p>
-            </a>
-          </Link>
-
-          <Link href="https://github.com/humberni/mode-dark-react">
-            <a
-              target="_blank"
-              className="border border-grey-200 dark:border-gray-800 rounded-lg p-4 w-full hover:border-gray-300 dark:hover:border-gray-300 bg-white dark:bg-gray-900"
-            >
-              <h3 className="text-lg font-bold text-left mt-2 text-gray-900 dark:text-gray-100">
-                Dark Mode &rarr;
-              </h3>
-              <p className="mt-1 text-gray-700 dark:text-gray-400">
-                Ejemplo práctico de configurar un dark mode con Reactjs.
-              </p>
-            </a>
-          </Link>
+          {projetcs.map((projetc) => (
+            <Link key={projetc.title} href={projetc.href}>
+              <a
+                target="_blank"
+                className="border border-grey-200 dark:border-gray-800 rounded-lg p-4 w-full hover:border-gray-300 dark:hover:border-gray-300 bg-white dark:bg-gray-900"
+              >
+                <h3 className="text-lg font-bold text-left mt-2 text-gray-900 dark:text-gray-100">
+                  {projetc.title} &rarr;
+                </h3>
+                <p className="mt-1 text-gray-700 dark:text-gray-400">
+                  {projetc.description}
+                </p>
+              </a>
+            </Link>
+          ))}
         </div>
         <Contact />
       </div>
