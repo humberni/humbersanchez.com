@@ -64,7 +64,8 @@ export default function Dashboard() {
                 Quina ERP &rarr;
               </h3>
               <p className="mt-1 text-gray-700 dark:text-gray-400">
-                Sitio web informativo desarrollado con el CMS WordPress.
+                Sitio web informativo desarrollado con Nextjs, Tailwindcss y
+                desplegado en ▲ Vercel.
               </p>
             </a>
           </Link>
