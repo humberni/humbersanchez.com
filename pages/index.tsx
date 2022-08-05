@@ -12,7 +12,7 @@ export default function Home() {
         <div className="flex flex-col justify-center items-start max-w-2xl border-gray-200 dark:border-gray-700 mx-auto">
           <div className="flex flex-col-reverse sm:flex-row items-start">
             <div className="flex flex-col pr-8">
-              <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4  text-black dark:text-white">
+              <h1 className="font-extrabold text-3xl md:text-5xl tracking-tight mb-4 bg-clip-text text-transparent bg-gradient-to-r from-teal-400 to-indigo-500">
                 Humber Sanchez
               </h1>
               <p className="text-gray-600 dark:text-gray-400 mb-16">
