@@ -63,8 +63,8 @@ export function Habilidades() {
           <Contact />
           <span className="h-16" />
         </div>
+        <Footer />
       </Container>
-      <Footer />
     </Suspense>
   );
 }
