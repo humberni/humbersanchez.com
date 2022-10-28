@@ -6,6 +6,23 @@ import Footer from "../components/Footer";
 
 const projetcs = [
   {
+    title: "Quina ERP",
+    description:
+      "Sitio web informativo desarrollado con NextJs, Tailwind Css y desplegado en ▲ Vercel.",
+    href: "https://quinaerp.com/",
+  },
+  {
+    title: "Levirom",
+    description:
+      "Familia creativa, enfocados 100% en empresas, arte y cultura, construida bajo el CMS WordPress.",
+    href: "https://levirom.pe/",
+  },
+  {
+    title: "Halley",
+    description: "Plantilla web publicado en Themeforest desarrollado con NextJs y Tailwind.",
+    href: "https://halley.vercel.app/",
+  },
+  {
     title: "Flash Service",
     description: "PWA para el rubro de delivery, implementado con Laravel.",
     href: "https://appflashservice.com/",
@@ -17,27 +34,22 @@ const projetcs = [
     href: "https://www.gersonmedina.com/",
   },
   {
-    title: "Quina ERP",
-    description:
-      "Sitio web informativo desarrollado con NextJs, Tailwind Css y desplegado en ▲ Vercel.",
-    href: "https://quinaerp.com/",
-  },
-  {
     title: "Jopesatools",
     description:
       "Plataforma Ecommerce de ferretería, bajo la tecnología de WooCommere.",
     href: "https://jopesatools.com/",
   },
   {
-    title: " Cunia",
+    title: "AVVA",
     description:
-      "Ecommerce de electrodomésticos desarrollado bajo el CMS de WordPress y WooCommere.",
-    href: "https://cunia.pe/",
+      "Sitio web informativo implementado para Avva empresa consultora y contructora.",
+    href: "https://www.avvaconsultora.com/",
   },
+ 
   {
     title: "Humber Sanchez",
     description:
-      "Portafolio web minimalista y optimizado, desarrollado con NextJs, Tailwind Css y desplegado en ▲ Vercel.",
+      "Portafolio web minimalista desarrollado con NextJs, Tailwind Css y desplegado en ▲ Vercel.",
     href: "https://github.com/humberni/humbersanchez.com",
   },
   {

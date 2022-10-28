@@ -17,7 +17,7 @@ function NavItem({ href, text }: { href: string; text: string }) {
           isActive
             ? "font-semibold text-gray-800 dark:text-gray-200"
             : "font-normal text-gray-600 dark:text-gray-400",
-          "hidden md:inline-block p-1 sm:px-3 sm:py-2 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-800 transition-all"
+          "hidden md:inline-block p-1 sm:px-3 sm:py-2 hover:underline dark:hover:underline transition-all"
         )}
       >
         <span className="capsize">{text}</span>
@@ -36,7 +36,7 @@ export default function Container(props: any) {
   const { children, ...customMeta } = props;
   const router = useRouter();
   const meta = {
-    title: "Humber Sanchez – Bach. en Ingeniería de Sistemas",
+    title: "Humber Sanchez Nieto",
     description: `Conocimientos sólidos y en constante actualización en gestión de proyectos, base de datos y desarrollo frontend`,
     image: "https://humbersanchez.com/static/images/humber-banner.jpg",
     type: "website",
@@ -82,7 +82,7 @@ export default function Container(props: any) {
           <button
             aria-label="Toggle Dark Mode"
             type="button"
-            className="w-9 h-9 bg-gray-200 rounded-lg dark:bg-gray-600 flex items-center justify-center  hover:ring-2 ring-gray-200 dark:hover:ring-2 dark:ring-gray-600  transition-all"
+            className="w-9 h-9 bg-gray-200 rounded-full dark:bg-gray-600 flex items-center justify-center"
             onClick={() =>
               setTheme(resolvedTheme === "dark" ? "light" : "dark")
             }
@@ -93,7 +93,7 @@ export default function Container(props: any) {
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
-                className="w-5 h-5 text-gray-800 dark:text-gray-200"
+                className="w-5 h-5 text-gray-800 dark:text-amber-500"
               >
                 {resolvedTheme === "dark" ? (
                   <path
