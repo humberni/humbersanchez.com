@@ -12,16 +12,16 @@ const projetcs = [
     href: "https://quinaerp.com/",
   },
   {
-    title: "Levirom",
-    description:
-      "Familia creativa, enfocados 100% en empresas, arte y cultura, construida bajo el CMS WordPress.",
-    href: "https://levirom.pe/",
-  },
-  {
-    title: "Halley",
+    title: "Halley ⭐",
     description: "Plantilla web publicado en Themeforest desarrollado con NextJs y Tailwind.",
     href: "https://halley.vercel.app/",
   },
+  {
+    title: "Jhonsy Silva",
+    description: "Sitio web personal construido con NextJs y Tailwind Css",
+    href: "https://halley.vercel.app/",
+  },
+
   {
     title: "Flash Service",
     description: "PWA para el rubro de delivery, implementado con Laravel.",
@@ -32,6 +32,12 @@ const projetcs = [
     description:
       "Portafolio web de fotografía y videos, desarrollado con ReacJs.",
     href: "https://www.gersonmedina.com/",
+  },
+  {
+    title: "Levirom",
+    description:
+      "Familia creativa, enfocados 100% en empresas, arte y cultura, construida bajo el CMS WordPress.",
+    href: "https://levirom.pe/",
   },
   {
     title: "Jopesatools",
@@ -45,7 +51,7 @@ const projetcs = [
       "Sitio web informativo implementado para Avva empresa consultora y contructora.",
     href: "https://www.avvaconsultora.com/",
   },
- 
+
   {
     title: "Humber Sanchez",
     description:
