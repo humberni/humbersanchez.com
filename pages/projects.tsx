@@ -19,7 +19,7 @@ const projetcs = [
   {
     title: "Jhonsy Silva",
     description: "Sitio web personal construido con NextJs y Tailwind Css",
-    href: "https://halley.vercel.app/",
+    href: "https://jhonsysilva.vercel.app/",
   },
 
   {
