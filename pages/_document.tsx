@@ -8,14 +8,14 @@ class MyDocument extends Document {
 
     render() {
         return (
-            <Html lang="en">
+            <Html lang="es">
                 <Head>
                     <link
                         href="https://fonts.googleapis.com/css2?family=Roboto:wght@300..700&display=swap"
                         rel="stylesheet"
                     />
                 </Head>
-                <body>
+                <body className="bg-neutral-50 dark:bg-neutral-900">
                     <Main />
                     <NextScript />
                 </body>

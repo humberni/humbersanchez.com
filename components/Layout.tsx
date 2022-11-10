@@ -2,6 +2,9 @@ import Head from 'next/head';
 import { useRouter } from 'next/router';
 
 import { ReactNode } from 'react';
+import Footer from './Footer';
+import Navbar from './Navbar';
+import Social from './Social';
 
 type PageMeta = {
   title: string;
@@ -18,13 +21,13 @@ export default function Layout({ children, meta: pageMeta }: Props) {
   const router = useRouter();
   const meta = {
     title: 'Humber Sanchez',
-    description: 'Halley is a landing page template built with Nextjs and Tailwindcss',
-    cardImage: '/images/seo/halley-banner.png',
+    description: 'Ingeniero de Sistemas - Apasionado por la tecnología',
+    cardImage: '/images/avatar/avatar.png',
     ...pageMeta
   };
 
   return (
-    <div className="min-w-[350px]">
+    <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-0 min-w-[350px]">
       <Head>
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
@@ -44,7 +47,6 @@ export default function Layout({ children, meta: pageMeta }: Props) {
       </Head>
       <Navbar />
       <main id="skip">{children}</main>
-      <Prefooter />
       <Footer />
     </div>
   );
