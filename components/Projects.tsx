@@ -68,7 +68,7 @@ export default function Projects() {
                 Proyectos
             </h2>
 
-            <p className="pt-6 mb-6 max-w-2xl text-center m-auto dark:text-neutral-400">
+            <p className="pt-6 mb-6 max-w-2xl text-center m-auto dark:text-neutral-300">
                 Entre la universidad, el trabajo, el tiempo libre y la curiosidad individual, he trabajado en muchos proyectos y con diferentes tecnologías a lo largo de los años.
             </p>
 
@@ -82,7 +82,7 @@ export default function Projects() {
                         <h3 className="text-lg font-bold text-left mt-2 text-neutral-900 dark:text-neutral-100">
                             {title} &rarr;
                         </h3>
-                        <p className="mt-1 text-left text-neutral-700 dark:text-neutral-400">
+                        <p className="mt-1 text-left text-neutral-700 dark:text-neutral-300">
                             {description}
                         </p>
 

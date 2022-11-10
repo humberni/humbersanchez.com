@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Layout from "../components/Layout";
 import Projects from "../components/Projects";
+import Skills from "../components/Skills";
 import Social from "../components/Social";
 
 export default function Home() {
@@ -25,8 +26,9 @@ export default function Home() {
             className="rounded-full filter hover:grayscale rotate-45"
           />
         </div>
+        <Skills />
         <Projects />
-        <p className="max-w-lg mx-auto">
+        <p className="max-w-lg mx-auto dark:text-neutral-300">
           Actualmente no estoy buscando nuevas oportunidades, pero mi bandeja de entrada siempre está abierta. Ya sea que tenga una pregunta o simplemente quiera saludar.
         </p>
         <Social />
