@@ -3,7 +3,7 @@ import Link from "next/link";
 const projetcs = [
     {
         title: "Halley ✨",
-        description: "Plantilla web publicado en Themeforest desarrollado con NextJs y Tailwind.",
+        description: "Plantilla web publicado en Themeforest desarrollado con NextJs y Tailwindcss.",
         href: "https://halley.vercel.app/",
     },
     {
@@ -22,6 +22,11 @@ const projetcs = [
         title: "Flash Service",
         description: "PWA para el rubro de delivery, implementado con Laravel.",
         href: "https://appflashservice.com/",
+    },
+    {
+        title: "Dark Mode",
+        description: "Ejemplo práctico de configurar un Dark Mode con Nextjs y Tailwindcss.",
+        href: "https://darkmode-nextjs.vercel.app/",
     },
     {
         title: "Gerson Medina",
@@ -53,11 +58,6 @@ const projetcs = [
         description:
             "Portafolio web minimalista desarrollado con NextJs, Tailwind Css y desplegado en ▲ Vercel.",
         href: "https://github.com/humberni/humbersanchez.com",
-    },
-    {
-        title: "Dark Mode",
-        description: "Ejemplo práctico de configurar un dark mode con Reactjs.",
-        href: "https://github.com/humberni/mode-dark-react",
     },
 ];
 
