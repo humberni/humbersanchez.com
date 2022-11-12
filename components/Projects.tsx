@@ -41,12 +41,6 @@ const projetcs = [
         href: "https://levirom.pe/",
     },
     {
-        title: "Jopesatools",
-        description:
-            "Plataforma Ecommerce de ferretería, bajo la tecnología de WooCommere.",
-        href: "https://jopesatools.com/",
-    },
-    {
         title: "AVVA",
         description:
             "Sitio web informativo implementado para Avva empresa consultora y contructora.",
