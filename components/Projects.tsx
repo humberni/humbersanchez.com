@@ -71,7 +71,7 @@ export default function Projects() {
                     <Link key={title} href={href}
 
                         target="_blank"
-                        className="bg-neutral-100 dark:bg-neutral-800 border border-neutral-200 hover:border-neutral-300 dark:border-neutral-800 dark:hover:border-neutral-500 rounded-lg p-4 w-full">
+                        className="bg-neutral-100 dark:bg-neutral-800 rounded-lg p-4 w-full">
 
                         <h3 className="text-lg font-bold text-left mt-2 text-neutral-900 dark:text-neutral-100">
                             {title} &rarr;
