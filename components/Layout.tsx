@@ -1,16 +1,16 @@
-import Head from 'next/head';
-import { useRouter } from 'next/router';
+import Head from "next/head";
+import { useRouter } from "next/router";
 
-import { ReactNode } from 'react';
-import Footer from './Footer';
-import Navbar from './Navbar';
-import Social from './Social';
+import { ReactNode } from "react";
+import Footer from "./Footer";
+import Navbar from "./Navbar";
+import Social from "./Social";
 
 type PageMeta = {
   title: string;
   description: string;
   cardImage: string;
-}
+};
 
 interface Props {
   children: ReactNode;
@@ -20,10 +20,10 @@ interface Props {
 export default function Layout({ children, meta: pageMeta }: Props) {
   const router = useRouter();
   const meta = {
-    title: 'Humber Sanchez',
-    description: 'Ingeniero de Sistemas - Apasionado por la tecnología',
-    cardImage: '/images/avatar/avatar.png',
-    ...pageMeta
+    title: "Humber Sanchez",
+    description: "Ingeniero de Sistemas - Apasionado por la tecnología",
+    cardImage: "/images/avatar/avatar.png",
+    ...pageMeta,
   };
 
   return (
@@ -33,7 +33,10 @@ export default function Layout({ children, meta: pageMeta }: Props) {
         <meta name="robots" content="follow, index" />
         <link href="/favicon.ico" rel="shortcut icon" />
         <meta content={meta.description} name="description" />
-        <meta property="og:url" content={`https://humbersanchez.com${router.asPath}`} />
+        <meta
+          property="og:url"
+          content={`https://humbersanchez.com${router.asPath}`}
+        />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content={meta.title} />
         <meta property="og:description" content={meta.description} />
@@ -46,7 +49,9 @@ export default function Layout({ children, meta: pageMeta }: Props) {
         <meta name="twitter:image" content={meta.cardImage} />
       </Head>
       <Navbar />
-      <main id="skip">{children}</main>
+      <main id="skip" className="bg-neutral-50 dark:bg-neutral-900">
+        {children}
+      </main>
       <Footer />
     </div>
   );

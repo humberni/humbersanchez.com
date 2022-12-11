@@ -30,10 +30,10 @@ export default function Social() {
     return (
         <div className="flex justify-center gap-6 max-w-[350px] mx-auto mt-12" >
             {social.map(({ name, href, icon }) => (
-                <Link key={name} href={href}
+                <Link key={name} href={href} title={name}
                     target="_blank" className="text-neutral-900 hover:text-indigo-500 dark:text-neutral-300 dark:hover:text-indigo-500">
                     <div className="flex items-center justify-center">
-                        {icon}
+                        {icon} 
                     </div>
 
                 </Link>
